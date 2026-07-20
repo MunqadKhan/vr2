@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VR Investment UAE - Digital Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+
+        .card-container {
+            width: 100%;
+            max-width: 1100px;
+            background: #000;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+        }
+
+        .card-img {
+            width: 70%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .buttons-wrapper {
+            width: 30%;
+            min-width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px 25px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .buttons-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 22px;
+            border: 1.5px solid #c9a84c;
+            border-radius: 25px;
+            color: #c9a84c;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.25s ease;
+            background: transparent;
+            min-width: 100px;
+            letter-spacing: 0.3px;
+        }
+
+        .btn:hover {
+            background: #c9a84c;
+            color: #000;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        /* ========== MOBILE VIEW ========== */
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+                align-items: flex-start;
+            }
+
+            .card-container {
+                flex-direction: column;
+                border-radius: 0;
+                max-width: 420px;
+                min-height: 100vh;
+                padding: 20px 15px;
+            }
+
+            .card-img {
+                width: 100%;
+                max-width: 400px;
+                border-radius: 16px;
+                margin-bottom: 20px;
+            }
+
+            .buttons-wrapper {
+                width: 100%;
+                min-width: unset;
+                padding: 0;
+            }
+
+            .btn {
+                padding: 11px 18px;
+                font-size: 13px;
+                min-width: 85px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .btn {
+                padding: 10px 14px;
+                font-size: 12px;
+                min-width: 75px;
+            }
+        }
+
+        @media (max-width: 340px) {
+            .btn {
+                padding: 9px 12px;
+                font-size: 11px;
+                min-width: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <img src="image (1).png" alt="VR Investment UAE Business Card" class="card-img">
+        
+         <div class="buttons-wrapper">
+            <div class="buttons-row">
+                <a href="tel:971542927418" class="btn">Call</a>
+                <a href="https://wa.me/971542927418?text=Hello%2C%20I%20got%20your%20digital%20business%20card" class="btn">WhatsApp</a>
+                <a href="mailto:sarah@vrinvestments.ae" class="btn">Email</a>
+                <a href="https://maps.google.com/?q=The+Tower+Plaza+Hotel+Sheikh+Zayed+Road+Dubai](https://maps.google.com/?q=The+Tower+Plaza+Hotel+Sheikh+Zayed+Road+Dubai)" class="btn">Sharjah Office</a>
+            </div>
+           
+            <div class="buttons-row">
+                <a href="https://www.google.com/maps?q=The+Tower+Plaza+Hotel+Sheikh+Zayed+Road+Dubai%5D(https://maps.google.com/?q%3DThe+Tower+Plaza+Hotel+Sheikh+Zayed+Road+Dubai)%22" class="btn">Branch Office</a>
+                <a href="#" class="btn">Save Contact</a>
+                <a href="https://www.vrinvestments.ae](https://www.vrinvestments.ae)" class="btn">Website</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
